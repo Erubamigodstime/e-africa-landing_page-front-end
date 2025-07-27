@@ -1,0 +1,38 @@
+.dashboard {
+  display: flex;
+
+  .main {
+    flex: 1;
+    padding: 1rem;
+
+    .job-header {
+      margin-bottom: 1rem;
+
+      h2 {
+        font-size: 24px;
+        margin: 0;
+      }
+
+      p {
+        color: gray;
+      }
+    }
+
+    .candidate-columns {
+      display: flex;
+      gap: 1rem;
+
+      .column {
+        flex: 1;
+        background: #f9f9f9;
+        padding: 1rem;
+        border-radius: 10px;
+
+        h3 {
+          font-size: 16px;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
